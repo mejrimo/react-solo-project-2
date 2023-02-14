@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+hr {
+    width: 478px;
+    margin: auto;
+    border: 1px solid #F5F5F5;
+}
+
+nav {
+    height: 55px;
+    background: #F55A5A;
+    display: flex;
+    justify-content: center;
+}
+
+nav > img {
+    width: 24px;
+    height: 24px;
+    margin: auto 0 ;
+}
+
+nav > p {
+    margin: auto 7px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.075em;
+    color: #FFFFFF;
+}
+
+.card--section {
+    padding-top: 30px;
+}
+
+.card {
+    width: 471px;
+    display: flex;
+    margin: 6px auto 36px auto;
+}
+
+.panorama {
+    width: 126px;
+    height: 168px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.positions {
+    display: flex;
+    align-items: center;
+    margin-left: 19px;
+}
+
+.location {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.17em;
+    color: #2B283A;
+    margin-left: 4px;
+}
+
+.google--maps { 
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #918E9B;
+    margin-left: 12px;
+}
+
+.card--title {
+    margin-left: 19px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #2B283A;
+}
+
+.card--date {
+    margin-left: 19px;
+    margin-bottom: 9px;
+    font-weight: 700;
+    font-size: 10.24px;
+    line-height: 12px;
+    color: #2B283A;
+}
+
+.card--description {
+    margin-left: 19px;
+    font-size: 10.24px;
+    line-height: 150%;
+    color: #2B283A;
+}
